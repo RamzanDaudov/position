@@ -1,0 +1,52 @@
+
+.container {
+
+    height: 800px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.block {
+    width: 600px;
+    height: 230px;
+    background-color: #cb4e4e;;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+
+.blockBlue {
+    width: 600px;
+    height: 230px;
+    background-color: #6b6bd5;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.blockSticky {
+    width: 600px;
+    height: 230px;
+    background-color: #6b6bd5;
+    margin-top: 30px;
+    margin-right: 30px;
+    position: sticky;
+    bottom: 0;
+
+}
+
+.name {
+    margin-right: 15rem;
+    font-size: 40px;
+    margin-top: 60px;
+
+}
+
+.nameSticky {
+    margin-right: 15rem;
+    font-size: 40px;
+    margin-top: 60px;
+    position: sticky;
+    top: 0;
+}
